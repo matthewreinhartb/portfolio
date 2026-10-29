@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Matthew Reinhart Budiman — Portfolio</title>
+  <meta name="description" content="Portfolio of Matthew Reinhart Budiman — Information Systems Student bridging business & technology." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Animated background -->
+  <!-- Navbar -->
+  <header class="nav" id="nav">
+    <a href="#home" class="nav-logo">Matthew R.B<span>.</span></a>
+    <nav class="nav-links" id="navLinks">
+      <a href="#about">About</a>
+      <a href="#education">Education</a>
+      <a href="#experience">Experience</a>
+      <a href="#organization">Organization</a>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#certification">Certification</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero" id="home">
+    <div class="hero-inner reveal">
+      <div class="avatar">
+        <img src="assets/Foto%20pas.JPG" alt="Matthew Reinhart Budiman"
+             onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
+        <span class="avatar-fallback">MR</span>
+        <div class="avatar-ring"></div>
+      </div>
+      <div class="avail-badge"><span class="dot"></span> Open to Internship</div>
+      <p class="hero-eyebrow">👋 Hi, I'm</p>
+      <h1 class="hero-name">Matthew Reinhart<br />Budiman</h1>
+      <p class="hero-role">
+        Information Systems Student — I'm into
+        <span class="typed" id="typed"></span><span class="cursor">|</span>
+      </p>
+      <p class="hero-desc">
+        Information Systems undergraduate at BINUS University who enjoys connecting
+        business needs with technology solutions — from sales analysis and process mapping
+        to system design and running a small business.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Let's Connect</a>
+        <a href="assets/CV%20Matthew%20Reinhart%20Budiman%202026.pdf" class="btn btn-ghost" download>⬇ Download CV</a>
+      </div>
+      <div class="hero-meta">
+        <span>📍 West Jakarta, Indonesia</span>
+        <span>🎓 BINUS University</span>
+        <span>📊 Business × Technology</span>
+      </div>
+    </div>
+    <a href="#about" class="scroll-hint" aria-label="Scroll down">
+      <span></span>
+    </a>
+  </section>
+
+  <main>
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="section-head reveal">
+        <span class="section-no">01</span>
+        <h2>About Me</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm an Information Systems undergraduate who loves sitting at the intersection
+            of <strong>business and technology</strong>. I enjoy analytical work like sales
+            analysis, process mapping, and system design — but I'm equally comfortable on the
+            business side, running a small food business and engaging directly with customers.
+          </p>
+          <p>
+            I'm skilled in communication, leadership, and problem-solving, and I'm currently
+            seeking an <strong>internship</strong> across business analysis, business development,
+            operations, or technology roles — always with a passion for continuous learning.
+          </p>
+          <div class="lang-row">
+            <div class="lang"><span>🇮🇩 Indonesian</span><em>Native</em></div>
+            <div class="lang"><span>🇬🇧 English</span><em>Intermediate</em></div>
+          </div>
+        </div>
+        <ul class="about-cards">
+          <li class="reveal"><span class="stat">20–30</span><p>Daily orders handled at my food business</p></li>
+          <li class="reveal"><span class="stat">17</span><p>Team members led in liturgy division</p></li>
+          <li class="reveal"><span class="stat">4+</span><p>Academic data & design projects</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section" id="education">
+      <div class="section-head reveal">
+        <span class="section-no">02</span>
+        <h2>Education</h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2024 – Present</span>
+            <h3>BINUS University</h3>
+            <p class="tl-sub">Bachelor of Information Systems · West Jakarta, Indonesia</p>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2021 – 2023</span>
+            <h3>SMA Tarsisius</h3>
+            <p class="tl-sub">Social Science Major (IPS) · Jakarta, Indonesia</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section" id="experience">
+      <div class="section-head reveal">
+        <span class="section-no">03</span>
+        <h2>Experience</h2>
+      </div>
+      <div class="cards">
+        <article class="exp reveal">
+          <div class="exp-top">
+            <h3>Co-Founder &amp; Operator</h3>
+            <span class="exp-date">2025 – Present</span>
+          </div>
+          <p class="exp-org">TOKEMET KITCH</p>
+          <ul>
+            <li>Co-founded and run a home-based food business (risol, fried meatballs, chicken noodles, rice meals), serving 20–30 orders per day.</li>
+            <li>Managed end-to-end operations with a business partner: purchasing, production, pricing, and customer service.</li>
+            <li>Operated a pre-order (PO) system via WhatsApp, coordinating orders and ensuring on-time fulfillment.</li>
+            <li>Analyzed daily sales and customer preferences to adjust the menu, growing profit by around 20% over the first year of operation.</li>
+          </ul>
+        </article>
+
+        <article class="exp reveal">
+          <div class="exp-top">
+            <h3>Games Crew</h3>
+            <span class="exp-date">2024</span>
+          </div>
+          <p class="exp-org">Blibli Event</p>
+          <ul>
+            <li>Managed game booth operations and prize distribution for event visitors.</li>
+            <li>Distributed flyers and promotional materials to attract visitors and increase engagement.</li>
+            <li>Recorded and monitored inventory to maintain accurate stock control.</li>
+          </ul>
+        </article>
+
+        <article class="exp reveal">
+          <div class="exp-top">
+            <h3>Logistics &amp; Cashier Crew</h3>
+            <span class="exp-date">Jun – Jul 2024</span>
+          </div>
+          <p class="exp-org">RTG Event (PRJ)</p>
+          <ul>
+            <li>Introduced products directly to visitors during promotional events, increasing product visibility.</li>
+            <li>Engaged with customers to boost product awareness and support sales activities.</li>
+            <li>Managed cash handling and transaction accuracy during high-traffic event hours.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Organization -->
+    <section class="section" id="organization">
+      <div class="section-head reveal">
+        <span class="section-no">04</span>
+        <h2>Organization Experience</h2>
+      </div>
+      <div class="cards">
+        <article class="exp reveal">
+          <div class="exp-top">
+            <h3>Vice Chairman I – Liturgy Division</h3>
+            <span class="exp-date">2026 – 2029</span>
+          </div>
+          <p class="exp-org">Saint Peter and Paul Church</p>
+          <ul>
+            <li>Main liaison between the division head and leaders of three subsections (Altar Servers, Altar Girls, Ceremonial).</li>
+            <li>Relay directions and communicate updates/concerns back to leadership.</li>
+            <li>Help coordinate subsections to keep liturgical activities aligned and running smoothly.</li>
+          </ul>
+        </article>
+
+        <article class="exp reveal">
+          <div class="exp-top">
+            <h3>Liturgical Coordinator</h3>
+            <span class="exp-date">Feb 2026 – Feb 2027</span>
+          </div>
+          <p class="exp-org">KMK BINUS</p>
+          <ul>
+            <li>Led and coordinated a team of 17 members to ensure consistent, well-prepared execution of activities.</li>
+            <li>Assigned and scheduled service officers for each Mass.</li>
+            <li>Prepared Mass texts and coordinated with priests (Romo) for arrangements.</li>
+            <li>Trained and guided members to strengthen team readiness and performance.</li>
+          </ul>
+        </article>
+
+        <article class="exp reveal">
+          <div class="exp-top">
+            <h3>Person in Charge (PIC) – Bible Camp</h3>
+            <span class="exp-date">Nov 2026</span>
+          </div>
+          <p class="exp-org">KMK BINUS</p>
+          <ul>
+            <li>Prepared invitation and negotiation letters as part of event organization.</li>
+            <li>Coordinated with venue providers and priests (Romo) to arrange logistics.</li>
+            <li>Reached out to and followed up with committee members to ensure task completion.</li>
+          </ul>
+        </article>
+
+        <article class="exp reveal">
+          <div class="exp-top">
+            <h3>Vice Chairman</h3>
+            <span class="exp-date">2023 – 2024</span>
+          </div>
+          <p class="exp-org">Putra Altar Santo Tarsisius</p>
+          <ul>
+            <li>Managed the service schedule of altar servers and ensured balanced task distribution.</li>
+            <li>Coordinated, mentored, and trained new members to strengthen team capability.</li>
+            <li>Assisted the chairman and led the team when the chairman was unavailable.</li>
+            <li>Developed an attendance form and tracked records to improve monitoring and accountability.</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section" id="projects">
+      <div class="section-head reveal">
+        <span class="section-no">05</span>
+        <h2>Academic Projects</h2>
+      </div>
+      <div class="projects">
+        <article class="proj reveal">
+          <a class="proj-thumb" href="assets/projects/movie-dashboard.png" target="_blank" rel="noopener">
+            <img src="assets/projects/movie-dashboard.png" alt="Movie Industry BI Dashboard" loading="lazy" />
+            <span class="proj-zoom">🔍 View</span>
+          </a>
+          <div class="proj-body">
+            <span class="proj-tag">Data Modeling · 2024</span>
+            <h3>Data Modeling &amp; BI Dashboard — Movie Industry Analysis</h3>
+            <p>Designed a relational data model connecting five tables (Movies, Cast, Crew, Reviews, Genres) using Excel Power Pivot, and built an interactive dashboard with pivot tables, slicers, and charts to analyze revenue, ratings, and category distribution.</p>
+          </div>
+        </article>
+
+        <article class="proj reveal">
+          <a class="proj-thumb" href="assets/projects/house-price.png" target="_blank" rel="noopener">
+            <img src="assets/projects/house-price.png" alt="House Price Regression Analysis" loading="lazy" />
+            <span class="proj-zoom">🔍 View</span>
+          </a>
+          <div class="proj-body">
+            <span class="proj-tag">Data Modeling · 2024</span>
+            <h3>House Price Regression Analysis</h3>
+            <p>Performed simple and multiple regression on a 500-record dataset to identify key drivers of house prices, using scatter plots, R-squared, and ANOVA to interpret results and summarize business insights.</p>
+          </div>
+        </article>
+
+        <article class="proj reveal">
+          <a class="proj-thumb" href="assets/projects/eat-and-go.png" target="_blank" rel="noopener">
+            <img src="assets/projects/eat-and-go.png" alt="Eat and Go F&B App Prototype" loading="lazy" />
+            <span class="proj-zoom">🔍 View</span>
+          </a>
+          <div class="proj-body">
+            <span class="proj-tag">Figma · 2024</span>
+            <h3>Eat and Go — F&amp;B Mobile App Prototype (ISAD)</h3>
+            <p>Designed a food &amp; beverage app prototype with a sales analytics dashboard, based on analyzed user requirements.</p>
+          </div>
+        </article>
+
+        <article class="proj reveal">
+          <a class="proj-thumb" href="assets/projects/st-sport.png" target="_blank" rel="noopener">
+            <img src="assets/projects/st-sport.png" alt="St Sport Booking System Design" loading="lazy" />
+            <span class="proj-zoom">🔍 View</span>
+          </a>
+          <div class="proj-body">
+            <span class="proj-tag">System Design · 2024</span>
+            <h3>St Sport — Sports Booking System Design</h3>
+            <p>Modeled system requirements using Use Case, Sequence, and Activity diagrams, translating business needs into system documentation.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Volunteer -->
+    <section class="section" id="volunteer">
+      <div class="section-head reveal">
+        <span class="section-no">06</span>
+        <h2>Volunteer &amp; Mentoring</h2>
+      </div>
+      <article class="exp exp-wide reveal">
+        <div class="exp-top">
+          <h3>Student Mentor</h3>
+          <span class="exp-date">2026 – Present</span>
+        </div>
+        <p class="exp-org">SASC (Student Advisory and Support Center), BINUS</p>
+        <ul>
+          <li>Mentored students with GPAs below the minimum standard, helping them reach a GPA of 3.00 or higher.</li>
+          <li>Taught and explained difficult course materials to support students' understanding and grades.</li>
+        </ul>
+      </article>
+    </section>
+
+    <!-- Skills -->
+    <section class="section" id="skills">
+      <div class="section-head reveal">
+        <span class="section-no">07</span>
+        <h2>Skills</h2>
+      </div>
+      <div class="skill-groups">
+        <div class="skill-group reveal">
+          <h3>Core Skills</h3>
+          <div class="chips">
+            <span>Communication</span><span>Leadership</span><span>Negotiation</span>
+            <span>Analytical Thinking</span><span>Problem Solving</span>
+            <span>Teamwork</span><span>Time Management</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Business Skills</h3>
+          <div class="chips">
+            <span>Sales &amp; Customer Engagement</span><span>Sales Analysis</span>
+            <span>Business Process Mapping</span><span>Operations Management</span>
+          </div>
+        </div>
+        <div class="skill-group reveal">
+          <h3>Technical Skills</h3>
+          <div class="chips">
+            <span>MS Excel (Pivot Table)</span><span>SQL (Basic)</span><span>Draw.io</span>
+            <span>Figma</span><span>Canva</span><span>Use Case / DFD / Sequence</span>
+            <span>Google Workspace</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certification -->
+    <section class="section" id="certification">
+      <div class="section-head reveal">
+        <span class="section-no">08</span>
+        <h2>Certification</h2>
+      </div>
+      <div class="certs">
+        <article class="cert reveal">
+          <div class="cert-icon">🏅</div>
+          <div class="cert-body">
+            <h3>Azure AI Basic Fundamentals</h3>
+            <p>Instructor-Led Learning · Microsoft &amp; KOMDIGI (elevAIte Program)</p>
+            <span class="cert-year">2026</span>
+            <a class="cert-link" href="assets/certificates/azure-ai-fundamentals.png" target="_blank" rel="noopener">🔗 Lihat Sertifikat</a>
+          </div>
+        </article>
+        <article class="cert reveal">
+          <div class="cert-icon">🏅</div>
+          <div class="cert-body">
+            <h3>Applying Prompt Engineering with Azure OpenAI Service</h3>
+            <p>GreatNusa</p>
+            <span class="cert-year">2026</span>
+            <a class="cert-link" href="assets/certificates/prompt-engineering.png" target="_blank" rel="noopener">🔗 Lihat Sertifikat</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact">
+      <div class="contact-inner reveal">
+        <span class="section-no">09</span>
+        <h2>Let's Get Connected</h2>
+        <p class="contact-lead">I'm open to internship opportunities in business analysis, business development, operations, and technology. Let's talk!</p>
+        <div class="contact-grid">
+          <a class="contact-card" href="mailto:matthew.budiman@binus.ac.id">
+            <span class="c-ico">✉️</span>
+            <div><strong>Email</strong><p>matthew.budiman@binus.ac.id</p></div>
+          </a>
+          <a class="contact-card" href="mailto:dionmatt25@gmail.com">
+            <span class="c-ico">📧</span>
+            <div><strong>Personal Email</strong><p>dionmatt25@gmail.com</p></div>
+          </a>
+          <a class="contact-card" href="https://wa.me/6281310374755" target="_blank" rel="noopener">
+            <span class="c-ico">📱</span>
+            <div><strong>WhatsApp</strong><p>+62 813-1037-4755</p></div>
+          </a>
+          <a class="contact-card" href="https://www.linkedin.com/in/matthewreinhart23/" target="_blank" rel="noopener">
+            <span class="c-ico">💼</span>
+            <div><strong>LinkedIn</strong><p>/in/matthewreinhart23</p></div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Matthew Reinhart Budiman · Built with passion for learning.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
